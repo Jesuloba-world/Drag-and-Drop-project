@@ -1,3 +1,8 @@
+/// <reference path='./base-component.ts'/>
+/// <reference path='../util/validation.ts'/>
+/// <reference path='../decorator/autobind.ts'/>
+/// <reference path='../state/project-state.ts'/>
+
 // ProjectInput class
 namespace App {
 	export class ProjectInput extends Component<
